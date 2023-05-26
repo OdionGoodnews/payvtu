@@ -1,0 +1,269 @@
+.dashboard-navbar{
+    background: black;
+    display: flex;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    top: 0;
+    border:1px solid white;
+    z-index: 9999;
+    
+}
+.dashboard-navbar > div:nth-child(1) > h5{
+    font-size: 24px;
+    color: green;
+    position: relative;
+    top: 10px;
+    
+    
+}
+.dashboard-navbar > div:nth-child(1) > p{
+    font-size: 12px;
+    color: white;
+}
+.dashboard-navbar > div:nth-child(2){
+    position: relative;
+    right: 30px;
+    display: flex;
+}
+.dashboard-navbar > div:nth-child(2) > p{
+    color: green;
+    position: relative;
+    right: 13px;
+    top: 12px;
+    font-size: 12px;
+    
+
+}
+.dashboard-navbar > div:nth-child(2){
+    margin-left: auto;
+    
+}
+.profile-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    border: 2px solid green;
+}
+.dashboard-navbar > div:nth-child(3){
+    border: 1px solid white;
+    color: white;
+}
+body{
+    overflow-x: hidden;
+    background: #5f5e5e0a;
+}
+.sidebar{
+    min-height: 100vh;
+    box-shadow: 10px 10px  50px 10px rgb(122, 17, 17);
+    background-color: black;
+    position: fixed;
+    width:300px;
+
+}
+.side-item{
+   top: 50px;
+   position: relative;
+
+
+}
+.side-item > div{
+    margin: 20px;
+    padding: 10px;
+    background: black;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+
+}
+@media screen and (max-width:1000px) {
+    .sidebar{
+        display: none;
+    }
+.phone{
+    position: fixed;
+    background: black;
+    z-index: 9999;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px;
+    overflow: hidden;
+    
+    
+}
+.phoneNav-icon{
+    position: relative;
+    top: 10px;
+    color: white !important;
+}
+.phone-nav-item{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.card-app{
+    display: none;
+}
+.left-sector{
+    position: relative;
+    top: 70px !important;
+}
+.dashboard-navbar{
+    display: none !important;
+}
+
+}
+
+.left-sector{
+    position: relative;
+    top: 50px;
+}
+
+.left-sector > div > p{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: gray;
+    font-style: italic;
+}
+.left-sector > div{
+    font-family: sans-serif;
+}
+.loading-section > div{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 250px;
+    color: #3065B5;
+}
+.phone-nav{
+    position: relative;
+    border: 2px solid black;
+    background-color: black;
+    z-index: 9999;
+    top: 150px;
+    display: none;
+}
+.active{
+    background: green !important;
+    padding: 10px;
+}
+
+.home-account{
+    display: flex;
+    justify-content: space-between;
+}
+.home-account > div:nth-child(1) > p:nth-child(2){
+    color: rgba(255, 255, 255, 0.911);
+    font-size: 13px;
+}
+.home-account > div:nth-child(1) > p:nth-child(1){
+    position: relative;
+    top: 15px;
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 12px;
+}
+.home-account > div:nth-child(3){
+    margin-top: 23px;
+    background: green;
+    padding: 5px 20px;
+    height: 40px;
+    align-items: center;
+    position: relative;
+    color: white;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+}
+
+.home-account > div:nth-child(2){
+  position: relative;
+  top: 30px;
+}
+.accoount-visible-icon{
+    color: white !important;
+    font-size: 20px !important;
+}
+.card-account{
+    background: black;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.dashboard-section{
+    background-color: rgba(0, 0, 0, 0.623);
+    min-height: 100vh;
+}
+.ash{
+    font-size: 20px;
+}
+.home-refer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center !important;
+    
+}
+.home-refer >div{
+    margin: auto;
+    
+}
+.home-refer > div:nth-child(1) > div{
+    background: rgb(14, 1, 43);
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    color: white;
+}
+.home-refer > div:nth-child(1)  > p{
+    color: white;
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+}
+
+.home-refer > div:nth-child(2) > div{
+    background: green;
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    color: white;
+}
+.home-refer > div:nth-child(2)  > p{
+    color: white;
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+}
+
+
+
+.home-refer > div:nth-child(3) > div{
+    background: orange;
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
+
+    color: white;
+}
+.home-refer > div:nth-child(3)  > p{
+    color: white;
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+}
+.tekpay-home-referral{
+    background: black;
+    padding: 20px;
+    border-radius: 6px;
+    
+}
+.tekpay-home-referral > p{
+    color: white;
+    font-size: 13px;
+}

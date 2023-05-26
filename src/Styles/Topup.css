@@ -1,0 +1,54 @@
+.card-topupitem{
+    background: black;
+}
+.airtime-item{
+    display: flex;
+    justify-content: space-between;
+}
+.airtime-item > div:nth-child(1){
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    
+}
+.airtime-item > div:nth-child(2){
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+.active-topup{
+    background-color:green;
+    cursor: pointer;
+}
+.form-group{
+    margin: 10px 0px;
+}
+.form-control{
+    background: transparent !important;
+}
+.airtime-input{
+    padding: 8px;
+    color: white !important;
+}
+.airtime-label{
+    font-size: 14px !important;
+}
+.btn-topup{
+    background: green;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.msg-span{
+    color: red;;
+    font-size: 13px;
+    position: relative;
+    top: 5px;
+}

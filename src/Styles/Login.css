@@ -1,0 +1,117 @@
+.login-section{
+    background: #00800044;
+    padding: 15px 0px;
+
+}
+.main-login{
+    background: black;
+    min-height: 100vh;
+}
+.login-navbar{
+    display: flex;
+}
+.login-navbar > div:nth-child(1){
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+}
+.login-navbar > div:nth-child(2){
+    margin-left: auto;
+    position: relative;
+    right: 20px;
+    color: white !important;
+    top:7px;
+}
+.login-navbar > div:nth-child(3){
+    background: rgba(0, 128, 0, 0.253);
+    color: white;
+    border:1px solid green;
+    padding: 8px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-navbar > div:nth-child(3):hover{
+    background:green;
+    color: white;
+    padding: 8px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group{
+    margin: 15px 0px;
+}
+.login-form{
+    background: transparent;
+    padding: 10px;
+    box-shadow: none;
+    font-size: 14px;
+    box-shadow: none;
+    background: transparent !important;
+    -webkit-box-shadow:none !important;
+    -moz-box-shadow:none;
+    outline: none !important;
+    color: white !important;
+    
+}
+.login-form:hover{
+    box-shadow: none;
+    color: white !important;
+    background: transparent !important;
+    -webkit-box-shadow:none !important;
+    outline: none !important;
+    -moz-box-shadow:none
+}
+.btn-acess{
+    background: rgba(0, 128, 0, 0.747);
+    padding: 7px 20px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.btn-acess:hover{
+    background: rgba(0, 128, 0, 0.747);
+    padding: 7px 20px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.btn-register{
+    background: rgba(0, 128, 0, 0.747);
+    padding: 7px 20px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+.login-control-section{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 5px;
+    background: transparent !important;
+}
+.not-have-account{
+    display: flex;
+    justify-content: space-between;
+}
+.not-have-account > div{
+    color: white;
+    font-size: 14px;
+}
+.not-have-account > div:nth-child(1) > span{
+    color:orange;
+    cursor: pointer;
+}
+.form-icon{
+    position: absolute !important;
+    right: 0px !important;
+}
+.icon-input{
+    position: relative;
+    right: 30px !important;
+    color: rgba(255, 255, 255, 0.61) !important;
+    bottom: 35px !important;
+}
